@@ -1,0 +1,62 @@
+.header {
+    position: relative;
+    padding-top: 146px;
+    margin-bottom: 100px;
+    max-width: 1180px;
+    min-height: 969px;
+}
+
+.header__image {
+    position: absolute;
+    z-index: 1;
+    background-image: url("../img/gadgets2.png");
+    max-width: 675px;
+    min-height: 762px;
+    width: 100%;
+    background-repeat: no-repeat;
+    right: 0;
+    bottom: 0;
+}
+
+.header__title {
+    text-transform: uppercase;
+    font-size: 150px;
+    font-weight: 900;
+    line-height: 150px;
+    letter-spacing: -0.1em;
+    text-shadow: 0px 4px 4px #bfbfbf;
+}
+
+.header__subtitle {
+    margin-left: 104px;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+
+
+/* .header {
+    position: absolute;
+    padding-top: 146px;
+    background-image: url("../img/gadgets2.png");
+    max-width: 1180px;
+    min-height: 969px;
+    background-size: 675px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    z-index: 1;
+}
+
+.header__title {
+    position: relative;
+    text-transform: uppercase;
+    font-size: 150px;
+    font-weight: 900;
+    letter-spacing: -0.1em;
+    text-shadow: 0px 4px 4px #bfbfbf;
+}
+
+.header__subtitle {
+    margin-left: 104px;
+    font-size: 28px;
+} */

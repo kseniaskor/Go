@@ -1,0 +1,19 @@
+@import url('style.css');
+
+@import url('normalize.css');
+
+@import url('global.style.css');
+
+@import url('header.css');
+
+@import url('rooms.css');
+
+@import url('booking.css');
+
+@import url('about.css');
+
+@import url('review.css');
+
+@import url('questions.css');
+
+@import url('footer.css');

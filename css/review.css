@@ -1,0 +1,44 @@
+.review__title {
+    margin-bottom: 40px;
+}
+
+.review__list {
+    padding: 0 100px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+}
+
+.review__item {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.review__figure {
+    margin: 0;
+    margin-right: 20px;
+}
+
+.review__image {
+    margin-bottom: 11px;
+}
+
+.review__figcation {
+    text-align: center;
+}
+
+.review__text {
+    padding-top: 52px;
+    width: 680px;
+}
+
+
+
+
+
+
+
+
+

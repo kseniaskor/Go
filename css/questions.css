@@ -1,0 +1,40 @@
+.questions__title {
+    margin-bottom: 40px;
+}
+
+.questions__item {
+    background-color: #fff;
+    color: #1C1A1A;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 30px 70px;
+    margin-bottom: 20px;
+    list-style-type: none;
+    width: 100%; /*устанавливает ширину элемента*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /*по разным сторонам*/
+}
+
+.questions__list :nth-child(even) {
+    background-color: #440f51;
+    color: white;
+}
+
+.questions__item:nth-child(even)::after {
+    content: "";
+    display: inline-block;
+    background-image: url('../img/plus-white.svg');
+    width: 50px;
+    height: 50px;
+    background-size: cover; /* Масштабирует изображение с сохранением пропорций так, чтобы его ширина или высота равнялась ширине или высоте блока.*/
+}
+
+.questions__item:nth-child(odd)::after {
+    content: "";
+    display: inline-block;
+    background-image: url('../img/plus-purple.svg');
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+}

@@ -1,0 +1,83 @@
+.about__title {
+    margin-bottom: 40px;
+}
+
+.about__block {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.about__block::before {
+    margin-right: 80px;
+    content: "";
+    /* width: 100%; */
+    width: 600px;
+    height: 596px;
+    background-image: url("../img/about-us.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about__image-text {
+    width: 500px;
+}
+
+.about__text {
+    margin-bottom: 46px;
+}
+
+.about__creator {
+    position: relative;
+}
+
+.about__quote {
+    margin-bottom: 37px;
+    padding-left: 31px;
+    text-transform: uppercase;
+    font-size: 44px;
+    line-height: 50px;
+    quotes: '“' '”';
+}
+
+.about__quote::before {
+    content: open-quote;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 50px;
+    color: #6C0287;
+    position: absolute;
+    left: 0;
+    bottom: 270px;
+}
+
+.about__quote::after {
+    content: close-quote;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 50px;
+    color: #6C0287;
+    position: absolute;
+    bottom: 110px;
+    left: 370px;
+}
+
+.about__blockquote {
+    margin: 0;
+    padding-left: 80px;
+    /*
+    background-image: url("../img/founder.png");
+    background-size: 80px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    justify-content: space-between;*/
+}
+
+.about__image-founder {
+    float: left;
+    margin-right: 30px;
+}
+
+.about__cite {
+    font-style: normal;
+}
