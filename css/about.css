@@ -5,7 +5,6 @@
 .about__block {
     display: flex;
     justify-content: space-between;
-
 }
 
 .about__block::before {
@@ -13,7 +12,6 @@
     content: "";
     /* width: 100%; */
     width: 600px;
-    height: 596px;
     background-image: url("../img/about-us.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -24,7 +22,13 @@
 }
 
 .about__text {
-    margin-bottom: 46px;
+    margin-bottom: 59px;
+}
+
+.about__paragraph {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
 }
 
 .about__creator {
@@ -32,10 +36,11 @@
 }
 
 .about__quote {
-    margin-bottom: 37px;
+    margin-bottom: 39px;
     padding-left: 31px;
     text-transform: uppercase;
     font-size: 44px;
+    font-weight: 400;
     line-height: 50px;
     quotes: '“' '”';
 }
@@ -48,7 +53,7 @@
     color: #6C0287;
     position: absolute;
     left: 0;
-    bottom: 270px;
+    bottom: 285px;
 }
 
 .about__quote::after {
@@ -58,13 +63,13 @@
     line-height: 50px;
     color: #6C0287;
     position: absolute;
-    bottom: 110px;
     left: 370px;
+    bottom: 125px;
 }
 
 .about__blockquote {
     margin: 0;
-    padding-left: 80px;
+    padding-left: 111px;
     /*
     background-image: url("../img/founder.png");
     background-size: 80px;
@@ -80,4 +85,7 @@
 
 .about__cite {
     font-style: normal;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
 }
